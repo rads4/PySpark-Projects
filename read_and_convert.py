@@ -6,7 +6,7 @@ spark = (
     .getOrCreate()
 )
 
-db_properties = {
+db_properties = {  # PostgreSQL connection properties
     "user": "postgres",
     "password": "root",
     "driver": "org.postgresql.Driver",
